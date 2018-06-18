@@ -2763,3 +2763,8 @@ textarea.form-control {
     -ms-overflow-style: -ms-autohiding-scrollbar;
     -webkit-overflow-scrolling: touch; } }
 
+@media (max-width:600px){
+  .hide-small {
+    display: none;
+  }
+}
