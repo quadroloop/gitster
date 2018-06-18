@@ -10,6 +10,9 @@ window.onload = function() {
       document.getElementById('name').innerHTML = res.data.name;
       document.getElementById('login').innerHTML = res.data.login;
       document.getElementById('bio').innerHTML = res.data.bio;
+      document.getElementById('projects').innerHTML = res.data.public_repos;
+      document.getElementById('following').innerHTML = res.data.following;
+      document.getElementById('followers').innerHTML = res.data.followers;
 	})
 	.catch((err)=>{
 
