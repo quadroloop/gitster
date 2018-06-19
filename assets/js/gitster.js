@@ -13,6 +13,7 @@ window.onload = function() {
       document.getElementById('projects').innerHTML = res.data.public_repos;
       document.getElementById('following').innerHTML = res.data.following;
       document.getElementById('followers').innerHTML = res.data.followers;
+      document.getElementById('legend').src='./assets/img/galaxy.jpg';
 	})
 	.catch((err)=>{
 
