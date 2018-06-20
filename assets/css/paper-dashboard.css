@@ -2276,7 +2276,8 @@ textarea.form-control {
 
   .navbar-nav.navbar-left > li > .dropdown-menu:before {
     right: auto;
-    left: 12px; }
+    left: 12px;
+  }
 
   .navbar-nav.navbar-left > li > .dropdown-menu:after {
     right: auto;
@@ -2777,4 +2778,8 @@ textarea.form-control {
   .hide-small {
     display: none;
   }
+}
+
+.mt {
+  margin-top: 10px;
 }
