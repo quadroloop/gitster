@@ -1464,6 +1464,15 @@ textarea.form-control {
 .btn-group.select.open {
   overflow: visible; }
 
+ .card-panel {
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  color: #252422;
+  margin-bottom: 20px;
+  position: relative;
+  z-index: 1; } 
+
 .card {
   border-radius: 6px;
   box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);
