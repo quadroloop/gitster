@@ -2478,7 +2478,8 @@ textarea.form-control {
     width: 24px;
     height: 2px;
     border-radius: 1px;
-    margin: 0 auto; }
+    margin-top: 20px; 
+  }
 
   .navbar-header .navbar-toggle {
     margin: 10px 15px 10px 0;
