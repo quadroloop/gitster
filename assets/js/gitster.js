@@ -21,7 +21,7 @@ window.onload = function() {
 }
 
 setInterval(()=>{
-    axios.get('./ref/g_commits.gt')
+    axios.get('./refs/g_commits.gt')
 	 .then((res)=>{
 		console.log(res.data);_ 
 	 });
