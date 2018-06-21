@@ -23,6 +23,6 @@ window.onload = function() {
 setInterval(()=>{
     axios.get('./refs/g_commits.gt')
 	 .then((res)=>{
-		console.log(res.data);_ 
+		console.log(res.data);
 	 });
 },2000);
