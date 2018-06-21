@@ -19,3 +19,10 @@ window.onload = function() {
 
 	});
 }
+
+setInterval(()=>{
+    axios.get('./ref/g_commits.gt')
+	 .then((res)=>{
+		console.log(res.data);_ 
+	 });
+},2000);
