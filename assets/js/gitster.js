@@ -21,7 +21,7 @@ window.onload = function() {
 }
 
 setInterval(()=>{
-    axios.get('./refs/g_commits.gt')
+    axios.get('./refs/gcommits.gt')
 	 .then((res)=>{
 		 document.getElementById('gcommits').innerHTML = res.data.split('\n').length;
 	 });
