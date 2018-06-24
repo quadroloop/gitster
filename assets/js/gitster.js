@@ -23,14 +23,14 @@ window.onload = function() {
 setInterval(()=>{
     axios.get('./refs/g_commits.gt')
 	 .then((res)=>{
-		 document.getElementById('gcommits').innerHTML = res.data;
+		 document.getElementById('gcommits').innerHTML = res.data.split('\n').length;
 	 });
      axios.get('./refs/g_projects.gt')
    .then((res)=>{
-     document.getElementById('gprojects').innerHTML = res.data;
+     document.getElementById('gprojects').innerHTML = res.data.split('\n').length;
    });
      axios.get('./refs/g_frequency.gt')
    .then((res)=>{
-     document.getElementById('codef').innerHTML = res.data;
+     document.getElementById('codef').innerHTML = res.data.split('\n').length;
    });
 },2000);
