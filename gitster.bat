@@ -30,6 +30,8 @@ goto :eof
 
 :gitster
 echo detected changes: ghost commit: [%random%-%random%-%date%-%time%]!
+echo caclulating code frequency....
+echo %random% > ./refs/g_frequency.gt
 git add .
 git commit -m "automatically added changes via gitser"
 git push
