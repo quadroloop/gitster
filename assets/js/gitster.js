@@ -31,6 +31,6 @@ setInterval(()=>{
    });
      axios.get('./refs/g_frequency.gt')
    .then((res)=>{
-     document.getElementById('codef').innerHTML = res.data.split('\n').length;
+     document.getElementById('codef').innerHTML = res.data;
    });
 },2000);
