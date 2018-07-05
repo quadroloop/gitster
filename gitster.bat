@@ -5,9 +5,8 @@ echo              gitster v 0.1
 echo ============================================
 echo         (c) Brye Mercines 2018
 echo --------------------------------------------
-set /p f=file to watch:^>
 setlocal
-set file=%f%
+set file=./refs/gcommits.gt
 for %%I in (%f%) do set initsize=%%~zI
 
 
