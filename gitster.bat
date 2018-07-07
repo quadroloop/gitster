@@ -1,12 +1,12 @@
-:: gitster.bat -- windows operational file v0
 @echo off
 echo ============================================
-echo              gitster v 0.1
+echo        Git-watch v.0 file watcher
 echo ============================================
 echo         (c) Brye Mercines 2018
 echo --------------------------------------------
+set /p f=file to watch:^>
 setlocal
-set file=./refs/gcommits.gt
+set file=%f%
 for %%I in (%f%) do set initsize=%%~zI
 
 
